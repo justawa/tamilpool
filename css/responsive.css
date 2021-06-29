@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 1100px) and (min-width: 981px){
+
+}
+@media only screen and (max-width: 980px){
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2.25rem;
+}
+.mr-r{margin-right:0;}
+.step-div:before {
+    top: 100px;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 60%;
+    background-color: #d8d8d8;
+    z-index: 0;
+    left: 49%;
+    right: 0;
+}
+.tabs-red {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: scroll;    display: block;
+}
+.tabs-red .nav-item {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: table-cell;
+    white-space: nowrap;
+}
+.tabs-red .nav-item a:hover {
+    box-shadow: none;
+    border-radius: 50px;
+}
+
+}
+@media only screen and (max-width: 479px){
+	.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2.25rem;
+}
+.mr-r{margin-right:0;}
+.step-div:before {
+    top: 100px;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 60%;
+    background-color: #d8d8d8;
+    z-index: 0;
+    left: 49%;
+    right: 0;
+}
+.tabs-red {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: scroll;    display: block;
+}
+.tabs-red .nav-item {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: table-cell;
+    white-space: nowrap;
+}
+.tabs-red .nav-item a:hover {
+    box-shadow: none;
+    border-radius: 50px;
+}
+.side-bar{display:none;}
+.text-r{text-align:left;}
+}
+
+@media only screen and (max-width: 320px){
+	.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+.mr-r{margin-right:0;}
+.step-div:before {
+    top: 100px;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 60%;
+    background-color: #d8d8d8;
+    z-index: 0;
+    left: 49%;
+    right: 0;
+}
+.tabs-red {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: scroll;    display: block;
+}
+.tabs-red .nav-item {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: table-cell;
+    white-space: nowrap;
+}
+.tabs-red .nav-item a:hover {
+    box-shadow: none;
+    border-radius: 50px;
+}
+.side-bar{display:none;}
+.text-r{text-align:left;}
+}
